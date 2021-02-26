@@ -1,26 +1,10 @@
-@media (max-width: 767px) {
-  /* Mobile and Tablet Rules */
-  p {
-    color: red;
-  }
-}
 
+
+@media (max-width: 767px) {
+}
 @media (min-width: 768px) {
-  /* small screen*/
-  p {
-    color: green;
-  }
 }
 @media (min-width: 992px) {
-  /* Medium screen */
-  p {
-    color: blue;
-  }
 }
-
 @media (min-width: 1200px) {
-  /* large screen */
-  p {
-    color: yellow;
-  }
 }
