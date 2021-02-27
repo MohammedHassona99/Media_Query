@@ -48,6 +48,9 @@ body {
 .h1 {
   font-size: 2em;
 }
+.res-p {
+  line-height: 1.8;
+}
 /* End framework */
 /* Star Header */
 header {
@@ -136,10 +139,30 @@ main .feat p {
   }
 }
 /* End Features */
+
+/* Star About US */
+.about-us {
+  background-color: #ececec;
+  padding: 30px 0;
+}
+.about-us .h1 {
+  font-size: 50px;
+  color: #848484;
+}
+.about-us .res-p {
+  color: #848484;
+  font-size: 20px;
+}
+/* End About US */
+
 /* Star Media Query */
 @media (max-width: 767px) {
   .visible-xs {
     display: block;
+  }
+  .res-p {
+    text-align: center;
+    font-size: 18px !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
