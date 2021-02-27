@@ -51,6 +51,9 @@ body {
 .res-p {
   line-height: 1.8;
 }
+.list-noun {
+  list-style: none;
+}
 /* End framework */
 /* Star Header */
 header {
@@ -155,6 +158,69 @@ main .feat p {
 }
 /* End About US */
 
+/* Star Our work */
+@media (max-width: 767px) {
+  .our-work .img {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .our-work .img {
+    width: 50%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .our-work .img {
+    width: 33.333%;
+  }
+}
+@media (min-width: 1200px) {
+  .our-work .img {
+    width: 25%;
+  }
+}
+.our-work {
+  padding: 50px 0;
+}
+.our-work .img img {
+  width: 100%;
+}
+/* End Our work */
+
+/* Star Pricing table */
+
+/* Star Pricing table */
+.pricing-table {
+  padding: 50px 0;
+  background-color: #444;
+  color: #fff;
+}
+
+.pricing-table .h1 {
+  margin: 0 0 20px;
+  font-size: 50px;
+}
+.pricing-table .pricing-plan {
+  width: 33.333%;
+  border: 1px solid #fff;
+  padding: 20px 0;
+}
+.pricing-table .pricing-plan h3 {
+  margin: 0 0 10px;
+  font-size: 26px;
+}
+
+.pricing-table .pricing-plan span.pricing {
+  display: inline-block;
+  margin: 0 0 10px;
+  font-size: 22px;
+  color: #bfbfbf;
+}
+.pricing-table .pricing-plan ul {
+  line-height: 1.8;
+  font-size: 18px;
+}
+/* end Pricing table */
 /* Star Media Query */
 @media (max-width: 767px) {
   .visible-xs {
