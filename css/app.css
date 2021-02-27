@@ -221,6 +221,30 @@ main .feat p {
   font-size: 18px;
 }
 /* end Pricing table */
+
+/* Star Testimonial */
+.testimoniam {
+  padding: 50px 0;
+}
+.testimoniam .h1 {
+  font-size: 50px;
+  margin: 0 0 20px;
+  color: #555;
+}
+.testimoniam .person {
+  background-color: #eee;
+  padding: 20px;
+  margin: 0 0 20px;
+  border: 1px solid #ddd;
+}
+.testimoniam .person:first-of-type {
+  width: 50%;
+  margin-left: 25%;
+}
+.testimoniam .person:not(:first-of-type) {
+  width: 50%;
+}
+/* End Testimonial */
 /* Star Media Query */
 @media (max-width: 767px) {
   .visible-xs {
