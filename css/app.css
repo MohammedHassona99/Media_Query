@@ -2,11 +2,6 @@
 * {
   box-sizing: border-box;
 }
-body {
-  height: 5000px;
-}
-:root {
-}
 /* End Global Rules */
 /* Star framework */
 .container {
@@ -245,6 +240,54 @@ main .feat p {
   width: 50%;
 }
 /* End Testimonial */
+
+/* Star Information */
+.information {
+  padding: 50px 0;
+  background-color: #ececec;
+}
+.information .h1 {
+  font-size: 50px;
+  color: #848484;
+}
+.information .info-content {
+  margin-bottom: 30px;
+}
+.information .info-content > div {
+  padding: 20px;
+  background-color: #fff;
+  line-height: 2;
+}
+.information .info-content > div:not(:first-of-type) {
+  display: none;
+}
+.information .info-list li {
+  display: inline-block;
+  background-color: #ddd;
+  padding: 15px;
+  font-size: 22px;
+  cursor: pointer;
+}
+.information .info-list li.selected {
+  background-color: #fff;
+  color: rgb(109, 235, 214);
+  font-weight: bold;
+}
+@media (max-width: 767px) {
+  .information .info-list li {
+    display: block;
+  }
+}
+/* End Information */
+
+/* Star Footer */
+footer {
+  background-color: #555;
+  padding: 50px 0;
+  color: #fff;
+  font-weight: bolder;
+}
+/* End Footer */
 /* Star Media Query */
 @media (max-width: 767px) {
   .visible-xs {
